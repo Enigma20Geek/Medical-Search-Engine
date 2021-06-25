@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)),url('img/bg.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.btn button {
+    border: none;
+    padding: 8px;
+    width: 120px;
+    font-size: 1.5em;
+    background-color: orange;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    border: 0px solid tomato;
+    background-color: rgb(127, 255, 0);
+}
+
+nav
+{
+  display: flex;
+  padding: 2% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks
+{
+    text-align: left;
+}
+.navlinks ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 1px 20px;
+    position: relative;
+}
+.navlinks a
+{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-family: cursive;
+}
+
+ .navlinks ul li::after
+{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+} 
+
+.navlinks ul li:hover::after
+{
+    width:100%;
+} 
+
+.txtbx
+{
+    width: 60%;
+    height: 65%;
+    color: white;
+    /* border-radius: 15px; */
+    position:absolute;
+    top: 20%;
+    padding: 15px;
+    left: 25%;
+    translate: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(31, 31, 77);
+    backface-visibility: visible;
+    /* box-shadow: 0 0 20px 0px rgba(231, 217, 217, 0.952); */
+}
+
+.txtbx1
+{
+    width: 20%;
+    height: 50%;
+    color: white;
+    /* border-radius: 15px; */
+    position:absolute;
+    top: 28%;
+    padding: 15px;
+    left: 12%;
+    translate: (-50%,-50%);
+    /* text-align: center; */
+    /* justify-content: center; */
+    background-color:#095a55;
+    backface-visibility: visible;
+    /* box-shadow: 0 0 20px 0px rgba(231, 217, 217, 0.952); */
+    z-index: 1;
+}
+
+
+
+.contactinfo h2
+{
+   color:#fff;
+   font-size: 28px;
+   text-decoration: solid;
+   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   margin-top: 10px;
+}
+
+.info
+{
+  position: relative;
+  margin: 20% 0;
+
+}
+
+.info li
+{
+  position: relative;
+  list-style: none;
+  display: flex;
+  margin: 20px 0;
+  cursor: pointer;
+  align-items: flex-start;
+  
+}
+
+.info li span:nth-child(1)
+{
+    width: 30px;
+    min-width: 30px;
+}
+
+.info li span:nth-child(1) img
+{
+  max-width: 100%;
+  z-index: 3;
+  filter: invert(1);
+}
+
+.info li span:nth-child(2)
+{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.sci
+{
+    position: relative;
+    display: flex;
+}
+
+.sci li
+{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.sci li a
+{
+    text-decoration: none;
+}
+
+.sci li a img
+{
+    filter: invert(1);
+    margin-left: 15px;
+}
+
+
+.txtbx h2
+{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 500;
+  
+}
+
+
+.txtbx
+{
+	margin-top: 90px;
+	transform: translate(10%);
+    width: 30%;
+    height: 45%;
+    background-color: rgb(31, 31, 77);
+    box-shadow: 0 0 20px 0px rgba(231,217,217,0.952);
+    padding: 0px 50px;
+}
+
+.txtbx h2
+{
+	margin-top: 10px;
+	margin-bottom: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:2.5em;
+    text-decoration:wavy;
+    color:#fff;
+    display: block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txtbx form label
+{
+  text-align: center;
+  font-size: 1.2em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  color: #fff;
+  display: block;
+  margin-top: 15px;
+}
+
+.txtbx form input
+{
+    font-size: 12.5px;
+    width: 50%;
+    height: 20px;
+    border: none;
+    padding: 5px 5px;
+    /* border-bottom: 2px solid #333; */
+}
+
+#nameL{
+	font-size: 2em;
+	margin: 5px;
+}
+
+#bigtxtbx
+{
+    height: 100px;
+}
+
+#ss
+{
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+}
+
+#sub
+{
+    padding: 6px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color:crimson;
+    font-weight:100;
+    color:whitesmoke ;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

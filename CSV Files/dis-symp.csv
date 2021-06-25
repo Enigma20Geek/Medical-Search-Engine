@@ -1,0 +1,23 @@
+Disease,Symptoms
+Diabetes,"Kidney failure"
+Diabetes,"Leg amputation"
+Diabetes,"Vision loss"
+Diabetes,"Nerve damage"
+Diabetes,"Dry skin"
+Diabetes,Tiredness
+Corona,Fever
+Corona,"Dry cough"
+Corona,Tiredness
+Corona,"Difficulty breathing or shortness of breath"
+Corona,"Chest Pain"
+Malaria,Fever
+Malaria,"Flu-like illness"
+Malaria,Headache
+Malaria,Diarrhea
+Malaria,Vomiting
+Malaria,Nausea
+Dengue,Fever
+Dengue,Headache
+Dengue,Diarrhea
+Dengue,Vomiting
+Dengue,Nausea

@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    min-height: 120vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.7)),url('img/760r.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    position: relative;
+}
+nav
+{
+  display: flex;
+  padding: 2% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks
+{
+    text-align: left;
+}
+.navlinks ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 1px 20px;
+    position: relative;
+}
+.navlinks a
+{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    font-family: cursive;
+}
+
+ .navlinks ul li::after
+{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.7s;
+} 
+
+.navlinks ul li:hover::after
+{
+    width:100%;
+} 
+
+.btn {
+    display: inline-block;
+    position: absolute;
+    right: 14px;
+    top: 10px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.btn button {
+    border: none;
+    padding: 8px;
+    width: 120px;
+    font-size: 1.5em;
+    background-color: orange;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    border: 0px solid tomato;
+    background-color: rgb(127, 255, 0);
+}
+
+.txtbx
+{
+    width: 30%;
+    height: 40%;
+    color: white;
+    border-radius: 15px;
+    position:absolute;
+    top: 22%;
+    padding: 15px;
+    left: 9%;
+    translate: (-50%,-50%);
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(31, 31, 77);
+    backface-visibility: visible;
+    box-shadow: 0 0 20px 0px rgba(231, 217, 217, 0.952);
+}
+.txtbox p
+{
+    padding: 5px;
+    
+}
+#hd
+{
+    color:orange;
+    font-size: 3.5rem;
+}
+
+.schbtn
+{
+    display: flex;
+    justify-content:space-around;
+}
+.kbtn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: chartreuse;
+    border: 1px solid tomato;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.kbtn:hover
+{
+    border: 1px solid tomato;
+    background-color: rgb(235, 161, 148);
+}
+

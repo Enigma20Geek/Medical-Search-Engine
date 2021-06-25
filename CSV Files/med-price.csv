@@ -1,0 +1,14 @@
+medicine,price_min,price_max
+Metformin,20,25
+Thiazolidinediones,25,30
+Tolbutamide,5,15
+Glimepiride,15,20
+Glipizide,15,25
+Covishield,0,0
+Covaxin,0,0
+Doxycycline,8,78
+Tigecycline,1300,4500
+Clindamycin,60,100
+Azithromycin,30,200
+Co-trimoxazole,16,20
+Acetaminophen,7,10
