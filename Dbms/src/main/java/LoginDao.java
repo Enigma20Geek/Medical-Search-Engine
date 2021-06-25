@@ -7,7 +7,7 @@ public class LoginDao {
 	String sql="select * from register where username=? and password=?";
 	String url="jdbc:mysql://localhost:3306/dbms_project";
 	String uname="root";
-	String pass="SQLDestiny@20";
+	String pass="";//Enter password MySQL
    public boolean check(String username,String password) {
 	   try {
 		   Class.forName("com.mysql.jdbc.Driver");
