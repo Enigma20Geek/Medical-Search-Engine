@@ -32,7 +32,7 @@ public class NumberVerifier extends HttpServlet
 				Class.forName("com.mysql.jdbc.Driver");
 
 				Connection con = DriverManager.getConnection
-						("jdbc:mysql://localhost:3306/dbms_project","root","SQLDestiny@20");
+						("jdbc:mysql://localhost:3306/dbms_project","root",""); //Enter password MySQL
 				PreparedStatement ps = con.prepareStatement
 						("insert into register values(?,?,?,?,?,?,?)"); 
 
