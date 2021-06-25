@@ -8,8 +8,8 @@ public class Mailer
 {
 	public static void send(String from,String msg)
 	{
-		final String user="iit2019073@iiita.ac.in";
-		final String pass="DivineDestiny20";
+		final String user=""; //Sender Email
+		final String pass=""; ////Enter password for Mail
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", true);
 		props.put("mail.smtp.starttls.enable", true);
@@ -39,8 +39,8 @@ public class Mailer
 	
 	public static void verify(String to,String num)
 	{
-		final String user="iit2019073@iiita.ac.in";
-		final String pass="DivineDestiny20";
+		final String user=""; //Sender mail
+		final String pass=""; // Enter password Email
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", true);
 		props.put("mail.smtp.starttls.enable", true);
