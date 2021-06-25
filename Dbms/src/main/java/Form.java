@@ -56,7 +56,7 @@ public class Form extends HttpServlet
 			String connectionURL = "jdbc:mysql://localhost:3306/dbms_project"; 
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection
-					(connectionURL,"root","SQLDestiny@20");
+					(connectionURL,"root",""); //Enter password MySQL
 			PreparedStatement ps = con.prepareStatement("select username from register where username=?");
 			ps.setString(1,username);
 			ResultSet rs = ps.executeQuery();
